@@ -9,7 +9,9 @@ defineProps({
 
 <template>
   <div>
-    <div class="bg-white p-8 border-b border-slate-300 rounded-xl">
+    <div
+      class="bg-white p-8 border-b border-slate-300 rounded-xl hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition"
+    >
       <p class="border border-teal-500 text-teal-500 px-4 py-1 rounded-full w-fit">В наличии</p>
       <img :src="imageUrl" alt="Keybord" />
       <div class="flex justify-between">
