@@ -5,3 +5,4 @@ axios
 auto-animate
 vue-router
 tailwind
+debounce
