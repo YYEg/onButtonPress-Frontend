@@ -12,10 +12,10 @@ defineProps({
       <ProductItem
         v-for="product in products"
         :key="product.id"
-        :title="product.title"
+        :title="product.product_name"
         :imageUrl="product.imageUrl"
         :price="product.price"
-        :isAvailable="product.isAvailable"
+        :isAvailable="product.isAvailible"
       />
     </div>
   </div>
